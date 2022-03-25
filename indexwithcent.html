@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"> 
+
+    <style>
+        body{
+            /*position: relative;*/
+            width: 100%;
+            height:auto;
+            background: #F5F5F5;
+            font-weight: 300;
+            font-family: 'Lato', sans-serif;
+            display:flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            position: absolute;
+            width: 37.5%;
+            height:85%;
+            background: white;
+            margin-top: 50px;
+        }
+        strong{
+            font-weight: bold;
+        }
+
+        .header{
+            width: 100%;
+            height: 42px;
+            background: #F5F5F5;
+        }
+
+        .logo{
+            position: static;
+            width: 89px;
+            height: 42px;
+            left: 0px;
+            top: 0px;
+            mix-blend-mode: multiply;
+        }
+
+        .content{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 32px;
+        }
+
+        /* .text{}
+
+        .login{} */
+
+        /* .inputt{
+            height: 43.5px;
+            width: 279px;
+            border:none;
+            border-radius: 4px;
+            background: #F5F5F5;
+        }
+
+        input[value]{
+            padding-left: 16px;
+        } */
+
+        table{
+            background: #F5F5F5;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 4px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            /* border- */
+        }
+
+        .btn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 12px 20px;
+            position: static;
+            width: 40%;
+            height: 41px;
+            left: 0px;
+            top: 222px;
+            background: #00B794;
+            border-radius: 4px;
+            border:none;
+            color: white;
+            cursor: pointer;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 24px 0px;
+            font-weight: bold;
+            text-align: center ;
+        }
+
+        .btn:hover {
+            background: #06e4bb;
+        }
+        
+        .footer{
+            /* margin-top: 25px;
+            padding-left: 32px;
+            justify-content: baseline; */
+            padding-left: 32px;
+            position: absolute;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="logo">
+                <img src="Screenshot 2021-12-16 at 1.06 2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <div class="content">
+
+                <div class="text">
+                    <p>Hi Arul, <br> You have added by <strong>Shereen</strong> as an <strong>ADMIN</strong> to access <strong>Hope WorldWide Dashboard.</strong></p>
+                </div>
+
+                <div class="login">
+                    <p>You can login using the below details:</p>
+
+                    <!-- <input type="text" class="inputt" disabled="disabled" value="Username:      arul@surfboard.se"><br>
+                    <input type="text" class="inputt" disabled="disabled" value="Password:      Pass_W@o#r%d!"> --> 
+
+                    <!-- border=1 frame=void rules=rows -->
+
+                    <table >
+                        <tr>
+                            <td style="font-weight: bold;">User Name:</td>
+                            <td style="padding-left: 12px;">arul@surfboard.se</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-weight: bold;">Password:</td>
+                            <td style="padding-left: 12px;">Pass_W@o#r%d!</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <button class="btn" >Take me to Dashboard</button>
+
+            </div>
+        
+
+        </div>
+
+        <div class="footer">
+            <div class="ft-text">
+                <p>Sincerely,</p>
+                <p style="font-style: italic;font-weight: 100;">Team Hope WorldWide</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
